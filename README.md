@@ -39,4 +39,4 @@ This repository is licensed under the MIT License.
 
 ## Contact
 
-For any inquiries or suggestions regarding the projects in this repository, please contact [email@example.com](Alexander: b_alx_arboleda@outlook.com).
+For any inquiries or suggestions regarding the projects in this repository, please contact (Alexander: b_alx_arboleda@outlook.com).

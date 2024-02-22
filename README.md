@@ -4,7 +4,7 @@
 
 ## Description
 
-This repository contains various projects related to Artificial Intelligence (AI) implemented using Python and its dedicated libraries. The projects cover techniques from supervised learning, unsupervised learning, optimization algorithms, and reinforcement learning.
+This repository contains various projects related to Artificial Intelligence (AI) implemented using Python and its dedicated libraries. The projects cover techniques from supervised learning, unsupervised learning, optimization algorithms, neurol networks and reinforcement learning.
 
 ## Projects Overview
 
@@ -16,8 +16,11 @@ This repository contains various projects related to Artificial Intelligence (AI
 
 3. **Optimization Algorithms**
     - Applications of optimization algorithms such as gradient descent, stochastic gradient descent (SGD), genetic algorithms, particle swarm optimization (PSO), and simulated annealing.
-  
-4. **Reinforcement Learning**
+
+4. **Neural Networks**
+    - Projects focusing on neural networks, including deep learning models built with frameworks like TensorFlow and PyTorch, covering architectures such as convolutional neural networks (CNNs), recurrent neural networks (RNNs), and generative adversarial networks (GANs).
+
+5. **Reinforcement Learning**
     - Projects focusing on reinforcement learning methods such as Q-learning, deep Q-networks (DQN), policy gradients, and actor-critic algorithms.
 
 ## Usage

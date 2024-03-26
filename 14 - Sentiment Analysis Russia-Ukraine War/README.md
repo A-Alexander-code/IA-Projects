@@ -1,7 +1,3 @@
-Por supuesto, aquí tienes la traducción al inglés del archivo `README.md` en el mismo formato:
-
----
-
 # Sentiment Analysis on Russia-Ukraine War Using Python
 
 ## Project Description

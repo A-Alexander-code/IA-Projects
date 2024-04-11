@@ -1,0 +1,8 @@
+/kaggle
+/saved_models
+/__pycache__
+Data_path.csv
+labels
+model_json.json
+predictions.csv
+CNN.Conv1D.jpg

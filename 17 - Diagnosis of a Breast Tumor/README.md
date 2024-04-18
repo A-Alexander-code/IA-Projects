@@ -1,4 +1,3 @@
-```markdown
 # Using Predictive Analysis to Predict Diagnosis of a Breast Tumor
 
 ## Problem Statement
@@ -26,4 +25,3 @@ Since the labels in the data are discrete, the prediction falls into two categor
 - Utilized classification with cross-validation.
 - Evaluated model accuracy using the Receiver Operating Characteristic (ROC) curve.
 - Automated the machine learning process using pipelines.
-```

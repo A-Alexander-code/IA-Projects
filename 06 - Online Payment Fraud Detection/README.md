@@ -1,5 +1,7 @@
 # Online Payment Fraud Detection using Decision Tree Classifier
 
+[Decision Tree](decision_tree.png)
+
 ## Overview
 
 This repository contains a Python script implementing a Decision Tree Classifier model for detecting online payment fraud. The model is trained on a dataset containing various features related to online credit card transactions, such as transaction type, transaction amount, old balance of the sender's account, new balance of the sender's account, and a binary label indicating whether the transaction is fraudulent.

@@ -1,6 +1,6 @@
 # Online Payment Fraud Detection using Decision Tree Classifier
 
-![Decision Tree](decision_tree.png)
+<img src="decision_tree.png" width="128"/>
 
 ## Overview
 

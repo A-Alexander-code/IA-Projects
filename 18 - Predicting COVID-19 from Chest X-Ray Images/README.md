@@ -1,27 +1,22 @@
 <p align="center"> 
-<a href="https://github.com/A-Alexander-code"><img src="https://img.shields.io/static/v1?logo=github&label=maintainer&message=milaan9&color=ff3300" alt="Last Commit"/></a> 
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmilaan9%2F/tree/main/001_Cervical_Cancer_Predection_with_ML&count_bg=%231DC92C&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false"/></a>
+<a href="https://github.com/A-Alexander-code"><img src="https://img.shields.io/static/v1?logo=github&label=maintainer&message=A-Alexander-code&color=ff3300" alt="Last Commit"/></a> 
 </p> 
 <!--<img src="https://badges.pufler.dev/contributors/milaan9/01_Python_Introduction?size=50&padding=5&bots=true" alt="milaan9"/>-->
 
 # Prediction of COVID-19 from Chest X-ray Images with CNN (Convolutional Neural Network)
 
-In this project, Built and trained a convolutional neural network in Keras with TensorFlow as backend from scratch to predict patients if they were infected with COVID-19 or not using their chest X-ray images. 
-Matplotlib was used for data visualization. Data preprocessing and data augmentation was carried out using tensorflow 2.0
-The model used was sequential with a combination of convolutional layers, pooling layers, dropout layers, dense layers with relu activation and output layer with sigmoid activation.  The dataset contained the lungs X-ray images of both groups i.e non-covid and covid infected patients. The dataset was obtained from kaggle. Metrics chosen for model evaluation were Training set, test set and validation set accuracy. Adam optimizer with learning rate of 0.001 was choosed for gradient descent
-The entire project was carried out on the Google Colab environment
+In this project, a convolutional neural network was constructed and trained using Keras with TensorFlow as the backend to discern whether patients were afflicted with COVID-19 based on their chest X-ray images. Matplotlib was employed for visualizing the data. Data preprocessing and augmentation were executed using TensorFlow 2.0. The model architecture employed was sequential, incorporating convolutional layers, pooling layers, dropout layers, dense layers with ReLU activation, and an output layer with sigmoid activation. The dataset comprised X-ray images of lungs from both non-COVID and COVID-infected patients, obtained from Kaggle. Model evaluation was based on accuracy metrics computed for the training, test, and validation sets. Gradient descent was performed using the Adam optimizer with a learning rate of 0.001. 
 Results of the model were following:
 
-1) Training Set Accuracy : 98.41 %
-2) Training Set Loss : 0.0490
+1) Training Set Accuracy : 98.43 %
+2) Training Set Loss : 0.0575
 
-3) Validation Set Accuracy : 97.51 %
-4) Validation Set Loss: 0.0759
+3) Validation Set Accuracy : 95.586 %
+4) Validation Set Loss: 0.0929
 
-5) Test Set Accuracy : 94.83 %
-6) Test Set Loss : 0.1141
+5) Test Set Accuracy : 93.8 %
+6) Test Set Loss : 0.145
 
-Google Colab Project Link : https://colab.research.google.com/drive/1oeA2Rp5B_8VWtOXEoY7R4dQMaO4pZe_y?usp=sharing
 
 ![image](https://user-images.githubusercontent.com/77073932/128634391-9ea593fd-87c6-4646-88d6-573adeb3b6a5.png)
 
@@ -49,7 +44,7 @@ Once Installed now we can import it inside our python code.
 
 You can <img src="https://img.shields.io/static/v1?label=%E2%AD%90 Star &message=if%20useful&style=style=flat&color=blue" alt="Star Badge"/> and <img src="https://img.shields.io/static/v1?label=%E2%B5%96 Fork &message=if%20useful&style=style=flat&color=blue" alt="Fork Badge"/> Starring and Forking is free for you, but it tells me and other people that it was helpful and you like this tutorial.
 
-Go [**`here`**](https://github.com/milaan9/93_Python_Data_Analytics_Projects) if you aren't here already and click ➞ **`✰ Star`** and **`ⵖ Fork`** button in the top right corner. You'll be asked to create a GitHub account if you don't already have one.
+Go [**`here`**](https://github.com/A-Alexander-code/IA-Projects) if you aren't here already and click ➞ **`✰ Star`** and **`ⵖ Fork`** button in the top right corner. You'll be asked to create a GitHub account if you don't already have one.
 
 ---
 

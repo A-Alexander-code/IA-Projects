@@ -18,7 +18,7 @@ Results of the model were following:
 6) Test Set Loss : 0.145
 
 
-![image](https://user-images.githubusercontent.com/77073932/128634391-9ea593fd-87c6-4646-88d6-573adeb3b6a5.png)
+![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/128634391-9ea593fd-87c6-4646-88d6-573adeb3b6a5.png)
 
 
 ---
@@ -52,7 +52,7 @@ Go [**`here`**](https://github.com/A-Alexander-code/IA-Projects) if you aren't h
 
 1. Go [**`here`**](https://github.com/A-Alexander-code/IA-Projects) and click the big green ➞ **`Code`** button in the top right of the page, then click ➞ [**`Download ZIP`**](https://github.com/A-Alexander-code/IA-Projects/archive/refs/heads/main.zip).
 
-    ![Download ZIP](https://github.com/milaan9/93_Python_Data_Analytics_Projects/blob/main/img/dnld_rep.png)
+    ![Download ZIP](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/Captura%20de%20pantalla%202024-04-25%20132018.png)
 
 2. Extract the ZIP and open it. Unfortunately I don't have any more specific instructions because how exactly this is done depends on which operating system you run.
     
@@ -68,19 +68,19 @@ If you have git and you know how to use it, you can also clone the repository in
 
 ## Authors ✍️
 
-I'm Dr. Milaan Parmar and I have written this tutorial. If you think you can add/correct/edit and enhance this tutorial you are most welcome🙏
+I'm Msc. Alexander and I have written this tutorial. If you think you can add/correct/edit and enhance this tutorial you are most welcome🙏
 
-See [github's contributors page](https://github.com/milaan9/93_Python_Data_Analytics_Projects/graphs/contributors) for details.
+See [github's contributors page](https://github.com/A-Alexander-code/IA-Projects/graphs/contributors) for details.
 
-If you have trouble with this tutorial please tell me about it by [Create an issue on GitHub](https://github.com/milaan9/93_Python_Data_Analytics_Projects/issues/new). and I'll make this tutorial better. This is probably the best choice if you had trouble following the tutorial, and something in it should be explained better. You will be asked to create a GitHub account if you don't already have one.
+If you have trouble with this tutorial please tell me about it by [Create an issue on GitHub](https://github.com/A-Alexander-code/IA-Projects/issues/new). and I'll make this tutorial better. This is probably the best choice if you had trouble following the tutorial, and something in it should be explained better. You will be asked to create a GitHub account if you don't already have one.
 
-If you like this tutorial, please [give it a ⭐ star](https://github.com/milaan9/93_Python_Data_Analytics_Projects).
+If you like this tutorial, please [give it a ⭐ star](https://github.com/A-Alexander-code/IA-Projects).
 
 ---
 
 ## Licence 📜
 
-You may use this tutorial freely at your own risk. See [LICENSE](https://github.com/milaan9/93_Python_Data_Analytics_Projects/blob/main/LICENSE).
+You may use this tutorial freely at your own risk. See [LICENSE](https://github.com/A-Alexander-code/IA-Projects/blob/main/LICENSE).
 
 Copyright (c) 2020 Dr. Milaan Parmar
 

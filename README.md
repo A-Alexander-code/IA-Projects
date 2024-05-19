@@ -3,7 +3,7 @@
 </p> 
 <!--<img src="https://badges.pufler.dev/contributors/milaan9/01_Python_Introduction?size=50&padding=5&bots=true" alt="milaan9"/>-->
 
-![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/128634391-9ea593fd-87c6-4646-88d6-573adeb3b6a5.png)
+![image](https://github.com/A-Alexander-code/IA-Projects/blob/a010a868e11ec48cf332183d3eb9a4daf107c1d3/z_image/Applications-of-Artificial-Intelligence-1.png)
 
 # IA Projects
 

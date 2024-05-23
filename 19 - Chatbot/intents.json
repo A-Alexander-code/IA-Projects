@@ -1,0 +1,213 @@
+{
+ "intents": [
+  {
+   "tag": "greeting",
+   "patterns": [
+    "hi",
+    "is anyone there?",
+    "Hello",
+    "Good day"
+   ],
+   "responses": [
+    "Hello , thanks for visiting Alx_ChatBotProject",
+    "Good to see you again! ",
+    "Hi , how can I help?"
+   ],
+   "set": ""
+  },
+  {
+   "tag": "botstatus",
+   "patterns": [
+    "How are you doing?",
+    "Whats up",
+    "are you fine"
+   ],
+   "responses": [
+    "I am fine.Thanks for asking.",
+    "I am doing good."
+   ],
+   "set": ""
+  },
+  {
+   "tag": "creator",
+   "patterns": [
+    "who are you ?",
+    "who is this ?",
+    "who am i talking to?",
+    "what is your name?",
+    "are you human?"
+   ],
+   "responses": [
+    "Hi my name is Alx_Bot. 'Alx_ChatBotProject' team has created me.\nNice to meet you."
+   ],
+   "set": ""
+  },
+  {
+   "tag": "sad",
+   "patterns": [
+    "i am sad ",
+    "i am upset",
+    "i have a problem",
+    "i am not okay"
+   ],
+   "responses": [
+    "No problem. Everything will be okay",
+    "'There is only one happiness in life, to love and be loved' \n- George Sand.",
+    "'Cry. Forgive. Learn. Move on. \nLet your tears water the seeds of your future happiness' \n- Steve Maraboli",
+    "I am here for you, how can I help?"
+   ],
+   "set": ""
+  },
+  {
+   "tag": "funny",
+   "patterns": [
+    "you have good sense of humour",
+    "you are funny bot"
+   ],
+   "responses": [
+    "Yes i have good sense of humour.",
+    "Thanks for your compliment"
+   ],
+   "set": ""
+  },
+  {
+   "tag": "positive",
+   "patterns": [
+    "ok",
+    "good cool",
+    "yes wow you are so intelligent ",
+    "hurray i am happy",
+    "i am doing good"
+   ],
+   "responses": [
+    "I Hope you are getting your answers cleared."
+   ],
+   "set": ""
+  },
+  {
+   "tag": "goodbye",
+   "patterns": [
+    "Bye",
+    "See you later",
+    "Goodbye"
+   ],
+   "responses": [
+    "See you later, thanks for visiting Alx_ChatBotProject",
+    "Have a nice day",
+    "Bye! Come back again soon."
+   ]
+  },
+  {
+   "tag": "thanks",
+   "patterns": [
+    "Thank you",
+    "That's helpful"
+   ],
+   "responses": [
+    "Happy to help!",
+    "Any time!",
+    "My pleasure"
+   ]
+  },
+  {
+   "tag": "order",
+   "patterns": [
+    "show my order details?",
+    "Provide my order details",
+    "orders"
+   ],
+   "responses": [
+    "Do you want Purchased Order or Cart order details?"
+   ],
+   "set": "orderid"
+  },
+  {
+   "tag": "Purchased",
+   "patterns": [
+    "Purchased order",
+    "Purchased"
+   ],
+   "responses": [
+    "Please provide your order id",
+    "Please say your order id"
+   ],
+   "filter": "orderid",
+   "set": "historydetails"
+  },
+  {
+   "tag": "ordernumber",
+   "patterns": [
+    "ordernumber"
+   ],
+   "responses": [
+    "You ordered Smartwatch"
+   ],
+   "filter": "historydetails"
+  },
+  {
+   "tag": "Cart",
+   "patterns": [
+    "Cart",
+    "Cart details"
+   ],
+   "responses": [
+    "Your cart contains: \n1)Watch.\n2)Clock"
+   ],
+   "filter": "orderid"
+  },
+  {
+   "tag": "offers",
+   "patterns": [
+    "show me the offers",
+    "What kinds of deals do you have?"
+   ],
+   "responses": [
+    "Are you looking for deals on watches or smartphones?"
+   ],
+   "set": "productoffers"
+  },
+  {
+   "tag": "watches",
+   "patterns": [
+    "watches"
+   ],
+   "responses": [
+    "For about $100, you can get a 10X gold watch."
+   ],
+   "filter": "productoffers"
+  },
+  {
+   "tag": "smartphones",
+   "patterns": [
+    "smartphones"
+   ],
+   "responses": [
+    "XYZ Phone is available at $75 only."
+   ],
+   "filter": "productoffers"
+  },
+  {
+   "tag": "Products",
+   "patterns": [
+    "products available",
+    "show me available items"
+   ],
+   "responses": [
+    "Products available:\n1) Watch \n2) Smartphone \n3) Clock"
+   ],
+   "set": ""
+  },
+  {
+   "tag": "videogame",
+   "patterns": [
+    "what type of videogame do you have",
+    "list of videogame"
+   ],
+   "responses": [
+    "We use playstation network store and steam",
+    "You can consult our steam gift list"
+   ],
+   "context": ""
+  }
+ ]
+}

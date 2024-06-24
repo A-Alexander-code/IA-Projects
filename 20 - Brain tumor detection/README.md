@@ -13,7 +13,7 @@ This project utilizes transfer learning with the VGG16 model to classify brain t
 - **Loss**: 0.1184
 
 
-![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/brain-tumor-GettyImages.png)
+![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/brain-tumor-GettyImages.jpg)
 
 These metrics indicate the effectiveness of the model in correctly classifying brain tumor types based on the provided dataset.
 

@@ -23,10 +23,10 @@ The confusion matrix provides a detailed breakdown of the model's performance ac
 
 | Actual\Predicted | Glioma | Meningioma | No tumor | Pituitary |
 |------------------|--------|------------|----------|-----------|
-| **Glioma**        | 145    | 2          | 1        | 0         |
-| **Meningioma**    | 4      | 132        | 0        | 0         |
-| **No tumor**      | 0      | 0          | 153      | 1         |
-| **Pituitary**     | 0      | 1          | 6        | 135       |
+| **Glioma**        | 272    | 26          | 0        | 2         |
+| **Meningioma**    | 6      | 281        | 6        | 13         |
+| **No tumor**      | 1      | 5          | 399      | 0         |
+| **Pituitary**     | 0      | 1          | 0        | 299       |
 
 ---
 

@@ -5,11 +5,13 @@
 
 # Convlutional Autoencoder for Chest X-Ray Image Reconstruction
 
-![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/The-convolutional-autoencoder-structure.png)
+![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/20111107-lung.jpg)
 
 This project focuses on building, training, and evaluating a Convolutional Autoencoder (CAE) using TensorFlow and Keras. The goal of the VCAE is to learn a compressed representation (encoding) of chest X-ray images and then reconstruct them as accurately as possible.
 
 ## Background
+
+![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/The-convolutional-autoencoder-structure.png)
 
 A Convolutional Autoencoder (CAE) is a type of neural network designed for unsupervised learning tasks, specifically for image data. It combines convolutional neural networks (CNNs) with autoencoders. 
 
@@ -79,7 +81,7 @@ This Jupyter Notebook is used to train and evaluate the VCAE model. Major sectio
 
 ### Model Architecture Diagrams
 
-- **Model Summary**: Diagrams of the VCAE architecture, including the encoder and decoder networks, showing layer configurations and data flow.
+- **Model Summary**: Diagrams of the CAE architecture, including the encoder and decoder networks, showing layer configurations and data flow.
 
 ## Usage
 
@@ -103,7 +105,7 @@ This Jupyter Notebook is used to train and evaluate the VCAE model. Major sectio
 Use the following command to install the necessary libraries:
 
 
-pip install tensorflow pandas numpy opencv-python pillow scikit-image
+`pip install tensorflow pandas numpy opencv-python pillow scikit-image`
 
 ## Frequently asked questions ❔
 

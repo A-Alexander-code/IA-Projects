@@ -76,21 +76,30 @@ This Jupyter Notebook is used to train and evaluate the CAE model. Major section
 
 ![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/training_loss.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;After fifty epochs of training, the CAE model achieved a loss of 0.0029 and a validation loss of 0.0048.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After fifty epochs of training, the CAE model achieved a loss of 0.0029 and a validation loss of 0.0048.
 
 ### Reconstructed Images
 
 - **Original vs. Reconstructed**: Compare original chest X-ray images with their reconstructions to assess the quality of the model’s output. The first image in the 'Original' section shows one of the images used for training the model. The second image displays the reconstructed image (left) and the original image (right).
 
-    +  Original:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Original:<br/>
 ![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/x_ray_chest_original.png)
 
-    +   Reconstructions using CAE:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reconstructions using CAE:<br/>
 ![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/image_0.png)
 
 ### Model Architecture Diagrams
 
 - **Model Summary**: Diagrams of the CAE architecture, including the encoder and decoder networks, showing layer configurations and data flow.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Decoder architecture:<br/>
+![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/modelDecoder.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Encoder architecture:<br/>
+![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/modelEncoder.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Convlutional Autoencoder architecture:<br/>
+![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/modelCAE.png)
 
 ## Usage
 
@@ -98,6 +107,8 @@ This Jupyter Notebook is used to train and evaluate the CAE model. Major section
 2. **Configure Hyperparameters**: Adjust parameters in `training_CAE.ipynb` as needed.
 3. **Train the Model**: Run the cells in `training_CAE.ipynb` to train the model.
 4. **Evaluate the Model**: Use provided cells to evaluate the model's performance and save results.
+
+_Note_: Due to confidentiality issues, the images used for training this model cannot be shared.
 
 ## Requirements
 
@@ -114,7 +125,7 @@ This Jupyter Notebook is used to train and evaluate the CAE model. Major section
 Use the following command to install the necessary libraries:
 
 
-`pip install tensorflow pandas numpy opencv-python pillow scikit-image`
+    pip install tensorflow pandas numpy opencv-python pillow scikit-image
 
 ## Frequently asked questions ❔
 

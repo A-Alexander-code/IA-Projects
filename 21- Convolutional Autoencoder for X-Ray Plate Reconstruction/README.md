@@ -7,7 +7,7 @@
 
 ![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/20111107-lung.jpg)
 
-This project focuses on building, training, and evaluating a Convolutional Autoencoder (CAE) using TensorFlow and Keras. The goal of the VCAE is to learn a compressed representation (encoding) of chest X-ray images and then reconstruct them as accurately as possible.
+This project focuses on building, training, and evaluating a Convolutional Autoencoder (CAE) using TensorFlow and Keras. The goal of the CAE is to learn a compressed representation (encoding) of chest X-ray images and then reconstruct them as accurately as possible.
 
 ## Background
 
@@ -28,14 +28,13 @@ The CAE is trained to minimize the difference between the input and the reconstr
 1. `convolutional_autoencoder.py`
 2. `my_data_generator.py`
 3. `training_CAE.ipynb`
-4. `utils.py` (not detailed but mentioned)
-5. `README.md`
+4. `utils.py` 
 
 ### File Descriptions
 
 #### `convolutional_autoencoder.py`
 
-This file defines the `ConvAutoencoder` class, which encapsulates the construction, compilation, and training of the VCAE model. Key methods include:
+This file defines the `ConvAutoencoder` class, which encapsulates the construction, compilation, and training of the CAE model. Key methods include:
 
 - `__init__`: Initializes model parameters.
 - `build`: Constructs the model architecture.
@@ -58,7 +57,7 @@ Defines the `DataGenerator` class, inheriting from `tf.keras.utils.Sequence` to 
 
 #### `training_CAE.ipynb`
 
-This Jupyter Notebook is used to train and evaluate the VCAE model. Major sections include:
+This Jupyter Notebook is used to train and evaluate the CAE model. Major sections include:
 
 1. **Library Imports**: Imports necessary libraries.
 2. **Hyperparameters Definition**: Sets model and training parameters.
@@ -74,6 +73,10 @@ This Jupyter Notebook is used to train and evaluate the VCAE model. Major sectio
 ### Training Graphs
 
 - **Training and Validation Loss**: Visualize the loss curves during training and validation. These plots show how the model's performance improved over epochs.
+
+![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/training_loss.png)
+
+
 
 ### Reconstructed Images
 

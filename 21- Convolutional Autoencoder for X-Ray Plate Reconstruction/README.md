@@ -76,11 +76,17 @@ This Jupyter Notebook is used to train and evaluate the CAE model. Major section
 
 ![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/training_loss.png)
 
-
+    After fifty epochs of training, the CAE model achieved a loss of 0.0029 and a validation loss of 0.0048.
 
 ### Reconstructed Images
 
-- **Original vs. Reconstructed**: Compare original chest X-ray images with their reconstructions to assess the quality of the model’s output.
+- **Original vs. Reconstructed**: Compare original chest X-ray images with their reconstructions to assess the quality of the model’s output. The first image in the 'Original' section shows one of the images used for training the model. The second image displays the reconstructed image (left) and the original image (right).
+
+    - Original:  
+![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/x_ray_chest_original.png)
+
+    - Reconstructions using CAE:
+![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/image_0.png)
 
 ### Model Architecture Diagrams
 

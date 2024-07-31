@@ -1,5 +1,12 @@
 # Web Traffic Forecasting with Exogenous Features
 
+## Introduction
+In this project, I develop an autoregressive model to forecast web traffic using historical data. The model, named ForecasterAutoreg, employs a linear regressor with Ridge regularization. This approach leverages a time window of 14 days, meaning that for each prediction, the web traffic data from the previous two weeks is used as predictors.
+
+To ensure the effectiveness of the Ridge regression model, which requires standardized predictors, a StandardScaler is incorporated into the forecasting pipeline. This standardization is achieved by adding the scaler to the forecaster through the transformer_y argument. By doing so, the model benefits from improved stability and performance, providing more accurate predictions of future web traffic trends.
+
+This combination of autoregressive modeling and standardization techniques allows us to create a robust framework for anticipating web traffic patterns, helping to inform decision-making processes and optimize resource allocation.
+
 ## Overview
 This repository contains code for forecasting web traffic using two different methods: `forecasterAutoreg` and ARIMA with exogenous features. The dataset used for this purpose is `visitas_por_dia_web_cienciadedatos.csv`.
 

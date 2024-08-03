@@ -3,41 +3,89 @@
 </p> 
 <!--<img src="https://badges.pufler.dev/contributors/milaan9/01_Python_Introduction?size=50&padding=5&bots=true" alt="milaan9"/>-->
 
-![image](https://github.com/A-Alexander-code/IA-Projects/blob/a010a868e11ec48cf332183d3eb9a4daf107c1d3/z_image/Applications-of-Artificial-Intelligence-1.png)
+# Language Detection, Claim Identification, and Sentiment Analysis Project
 
-# IA Projects
+![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/Sentiment-Analysis.png)
 
-# AI Projects Repository
+In today's globalized world, the ability to understand and process multiple languages is more important than ever. This project aims to develop a comprehensive Natural Language Processing (NLP) model that not only detects languages but also identifies claims and analyzes sentiment in textual data. Leveraging a diverse dataset comprising 30 languages, this project seeks to advance the capabilities of multilingual text processing.
 
-## Description
+## Overview
 
-This repository contains various projects related to Artificial Intelligence (AI) implemented using Python and its dedicated libraries. The projects cover techniques from supervised learning, unsupervised learning, optimization algorithms, neurol networks and reinforcement learning.
+This project involves building a multi-output classification model using TensorFlow and Keras. The model is designed to handle three different tasks:
 
-## Projects Overview
+1. **Claim Classification**: Predicting whether a claim is true or false.
+2. **Sentiment Analysis**: Determining the sentiment of a statement (positive, negative, or neutral).
+3. **Language Identification**: Identifying the language of a given text.
 
-1. **Supervised Learning**
-    - Implementation of supervised learning algorithms such as linear regression, logistic regression, support vector machines (SVM), decision trees, and random forests.
-  
-2. **Unsupervised Learning**
-    - Projects involving unsupervised learning techniques including clustering algorithms like k-means, hierarchical clustering, and density-based clustering.
+## Model Architecture
 
-3. **Optimization Algorithms**
-    - Applications of optimization algorithms such as gradient descent, stochastic gradient descent (SGD), genetic algorithms, particle swarm optimization (PSO), and simulated annealing.
+The model is designed with the following components:
 
-4. **Neural Networks**
-    - Projects focusing on neural networks, including deep learning models built with frameworks like TensorFlow and PyTorch, covering architectures such as convolutional neural networks (CNNs), recurrent neural networks (RNNs), and generative adversarial networks (GANs).
+1. **Inputs**:
+   - Claim Input
+   - Sentiment Input
+   - Language Input
 
-5. **Reinforcement Learning**
-    - Projects focusing on reinforcement learning methods such as Q-learning, deep Q-networks (DQN), policy gradients, and actor-critic algorithms.
+2. **Layers**:
+   - **Embedding Layer**: Uses pre-trained embeddings for better representation.
+   - **Bidirectional LSTM Layers**: To capture dependencies in sequences.
+   - **Dropout Layers**: For regularization and preventing overfitting.
+   - **Dense Layers**: For final classification tasks.
 
-## Usage
+3. **Outputs**:
+   - **Claim**: Binary classification (True/False).
+   - **Sentiment**: Multi-class classification (Positive/Negative/Neutral).
+   - **Language**: Multi-class classification for 30 languages.
 
-Each project is contained within its own directory along with necessary code files, datasets, and documentation. Instructions for running and understanding each project are provided within their respective directories.
+## Metrics
+
+The following metrics are used to evaluate the model:
+
+- **Accuracy**
+- **F1 Score**
+- **Precision**
+- **Recall**
+
+## Results
+
+Here are the results of the model evaluation on the test dataset:
+
+- **Claim Classification**:
+  - Test Accuracy: 0.76571
+  - Test F1 Score: 0.46948
+  - Test Precision: 0.66828
+  - Test Recall: 0.51491
+
+- **Sentiment Analysis**:
+  - Test Accuracy: 0.44
+  - Test F1 Score: 0.36282
+  - Test Precision: 0.42416
+  - Test Recall: 0.39525
+
+- **Language Identification**:
+  - Test Accuracy: 0.68747
+  - Test F1 Score: 0.63292
+  - Test Precision: 0.66561
+  - Test Recall: 0.63626
+
+Overall, the model shows promising performance in claim and language classification but needs significant improvement in sentiment classification to achieve a more balanced and accurate performance across all metrics.
 
 ## Requirements
 
-- Python 3.x
-- Python libraries including NumPy, pandas, scikit-learn, TensorFlow, Keras, PyTorch, OpenAI Gym, etc. (specific requirements are outlined within each project's documentation)
+- TensorFlow
+- Keras
+- Pandas
+- NumPy
+- OpenCV
+- PIL (Python Imaging Library)
+- scikit-image
+
+## Installation
+
+Use the following command to install the necessary libraries:
+
+
+    pip install tensorflow pandas numpy opencv-python pillow scikit-image
 
 ## Frequently asked questions ❔
 

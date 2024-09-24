@@ -7,14 +7,14 @@
 
 ## Visualizations
 
-**Before any training:**
-![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/rRxXF4H.gif)
+**Before any training:**<br>
+![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/rRxXF4H.gif)<br>
 
-**In early stages of training:**
-![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/Z1K6qBQ.gif)
+**In early stages of training:**<br>
+![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/Z1K6qBQ.gif)<br>
 
-**In later stages of training:**
-![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/X8ghdpL.gif)
+**In later stages of training:**<br>
+![image](https://github.com/A-Alexander-code/IA-Projects/blob/main/z_image/X8ghdpL.gif)<br>
 
 
 ## Overview
